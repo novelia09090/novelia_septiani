@@ -1,0 +1,89 @@
+body {
+   background: #0d0d0d;
+   color: #f1f1f1;
+   font-size: 12px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   font-family: Arial, sans-serif;
+}
+
+div {
+   /* border: solid 1px red; */
+}
+
+#kalkulator {
+   border: solid 1px #333;
+   padding: 15px;
+   background: linear-gradient(rgb(0, 36, 99), rgb(0, 78, 155));
+   color: #f1f1f1;
+   min-width: 220px;
+   border-radius: 8px;
+   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper {
+   display: flex;
+   gap: 15px;
+   justify-content: space-between;
+   margin: 15px 0;
+}
+
+.wrapper div {
+   width: 100%;
+   padding: 8px 12px;
+   background: #1c1c1c;
+   border-radius: 4px;
+}
+
+#hasil, #btn-hitung {
+   font-size: 24px;
+   font-weight: bold;
+}
+
+#operasi-temporer {
+   font-size: 10px;
+   color: #999;
+}
+
+.bg-abu {
+   background: #c4c4c4;
+}
+
+.bg-purple {
+   background: #a24ec7;
+}
+
+.bg-light-blue {
+   background: #003366;
+}
+
+#judul {
+   padding: 15px 0;
+   font-size: 18px;
+   color: #f1f1f1;
+   text-transform: uppercase;
+}
+
+.tombol {
+   border: solid 1px #555;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+   padding: 10px;
+   border-radius: 5px;
+   transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.tombol-aktif {
+   cursor: pointer;
+}
+
+.tombol-aktif:hover {
+   background: linear-gradient(#003366, #004080);
+   transform: scale(1.05);
+   color: #fff;
+}
+
+.tombol-nonaktif {
+   box-shadow: none !important;
+   opacity: 0.6;
+}
